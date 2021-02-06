@@ -1,3 +1,9 @@
+# Changing The Banner Doesn't makes you Programmer
+
+#               Author : Abhay Vishwakarma
+#         Special Thanks to geeksforgeeks.org
+
+
 import random
 import pyperclip
 from tkinter import *
@@ -98,10 +104,5 @@ combo['values'] = (8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23,
 combo.current(0)
 combo.bind('<<ComboboxSelected>>') 
 combo.grid(column=1, row=1)
-
-
-
-
-
 
 root.mainloop()
